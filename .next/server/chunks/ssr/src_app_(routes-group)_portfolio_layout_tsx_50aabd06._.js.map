@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///Users/youssef_maher/Github%20Repositories/personal-portfolio/src/app/%28routes-group%29/portfolio/layout.tsx"],"sourcesContent":["import React from \"react\";\r\n\r\ninterface DashboardLayoutProps {\r\n  children: React.ReactNode;\r\n}\r\n\r\nexport default function DashboardLayout({ children }: DashboardLayoutProps) {\r\n  return (\r\n    <main className=\"min-h-screen\">\r\n      {children}\r\n    </main>\r\n  );\r\n}\r\n"],"names":[],"mappings":";;;;;AAMe,SAAS,gBAAgB,EAAE,QAAQ,EAAwB;IACxE,qBACE,8OAAC;QAAK,WAAU;kBACb;;;;;;AAGP","debugId":null}}]
-}

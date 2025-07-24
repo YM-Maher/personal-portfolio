@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///Users/youssef_maher/Github%20Repositories/personal-portfolio/src/app/%28routes-group%29/dashboard/layout.tsx"],"sourcesContent":["import React from \"react\";\r\n\r\ninterface DashboardLayoutProps {\r\n  children: React.ReactNode;\r\n}\r\n\r\nexport default function DashboardLayout({ children }: DashboardLayoutProps) {\r\n  return (\r\n    <div className=\"min-h-screen bg-gray-50\">\r\n      {/* Main Content */}\r\n      <main className=\"max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6\">\r\n        {children}\r\n      </main>\r\n    </div>\r\n  );\r\n}\r\n"],"names":[],"mappings":";;;;;AAMe,SAAS,gBAAgB,EAAE,QAAQ,EAAwB;IACxE,qBACE,8OAAC;QAAI,WAAU;kBAEb,cAAA,8OAAC;YAAK,WAAU;sBACb;;;;;;;;;;;AAIT","debugId":null}}]
-}
