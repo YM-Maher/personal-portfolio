@@ -1,7 +1,1 @@
-{
-  "/(routes-group)/dashboard/page": "app/(routes-group)/dashboard/page.js",
-  "/(routes-group)/home/page": "app/(routes-group)/home/page.js",
-  "/(routes-group)/portfolio/page": "app/(routes-group)/portfolio/page.js",
-  "/_not-found/page": "app/_not-found/page.js",
-  "/favicon.ico/route": "app/favicon.ico/route.js"
-}
+{}
