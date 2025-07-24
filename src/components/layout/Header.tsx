@@ -18,7 +18,7 @@ const Header = () => {
                 lorem vulputate lorem neque cubilia.
             </p>
             <button className='w-[160px] h-[50px] flex justify-center items-center text-[16px] text-[#878787] border-3 border-[#efefef] rounded-md'>
-                Learn More
+                Learn more
             </button>
         </div>
     )
