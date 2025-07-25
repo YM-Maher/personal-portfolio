@@ -1,28 +1,26 @@
-import React from 'react'
-import { Button } from '@/components/ui/button'
+import React from "react";
+import { Button } from "@/components/ui/button";
 
 const Header = () => {
-    return (
-        <div className='pb-16 flex flex-col gap-8 border-b-2 border-[#efefef]'>
-            <h2 className='text-[32px] text-[#878787]'>
-                Ipsum lorem dolor aliquam ante commodo
-                magna sed accumsan arcu neque.
-            </h2>
-            <p className='text-[16px] text-[#a2a2a2] leading-7'>
-                Accumsan orci faucibus id eu lorem semper.
-                Eu ac iaculis ac nunc nisi lorem vulputate
-                lorem neque cubilia ac in adipiscing in curae
-                lobortis tortor primis integer massa adipiscing
-                id nisi accumsan pellentesque commodo blandit
-                enim arcu non at amet id arcu magna. Accumsan
-                orci faucibus id eu lorem semper nunc nisi
-                lorem vulputate lorem neque cubilia.
-            </p>
-            <Button className='main-btn'>
-                Learn More
-            </Button>
-        </div>
-    )
-}
+  return (
+    <div className="pb-16 flex flex-col gap-8 border-b-2 border-[#efefef]">
+      <h2 className="text-[32px] max-sm:text-[22px] text-[#878787]">
+        Building Scalable, Performant, and Modern Web Applications for SaaS and
+        Enterprise Platforms
+      </h2>
+      <p className="text-[16px] max-sm:text-[14px] text-[#a2a2a2] leading-7">
+        I specialize in creating fast, responsive, and scalable web applications
+        that power real-world business platforms. With 4+ years of experience
+        across enterprise systems and SaaS solutions, I bring deep technical
+        skills in React, Next.js, Angular, and Tailwind—combined with a strong
+        understanding of user experience, system architecture, and clean code
+        principles. Whether building from scratch or optimizing large codebases,
+        I focus on delivering maintainable, high-impact solutions that scale
+        with your needs.
+      </p>
+      <Button className="main-btn">Learn More</Button>
+    </div>
+  );
+};
 
-export default Header
+export default Header;
