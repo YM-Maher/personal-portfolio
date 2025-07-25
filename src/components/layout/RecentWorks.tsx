@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState } from 'react'
+import { Button } from '../ui/button';
 
 const RecentWorks = () => {
 
@@ -57,9 +58,9 @@ const RecentWorks = () => {
                     </div>
                 ))}
             </div>
-            <button className='w-[160px] h-[50px] flex justify-center items-center text-[16px] text-[#878787] border-3 border-[#efefef] rounded-md'>
+            <Button className='main-btn'>
                 Full Portfolio
-            </button>
+            </Button>
         </div>
     )
 }

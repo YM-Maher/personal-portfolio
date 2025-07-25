@@ -16,10 +16,10 @@ const Carousel = () => {
             <div className="w-full flex flex-col items-end gap-8">
                 {/* Image Icon */}
                 <div className="w-[100px] h-[100px] rounded-full overflow-hidden">
-                    <img className="w-full h-full" src="/me.jpeg" alt="Youssef" />
+                    <img className="w-full h-full" src="/me.png" alt="Youssef" />
                 </div>
                 {/* Bio */}
-                <h1 className="w-[80%] text-end text-[20px] leading-10">
+                <h1 className="w-[80%] text-end text-[20px] text-white leading-10">
                     I am Youssef Maher,&nbsp;
                     <span className="text-[#FFFFFF80]">
                         Senior Front-end Developer

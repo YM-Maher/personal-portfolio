@@ -1,13 +1,14 @@
 import React from 'react'
+import { Button } from '../ui/button'
 
 const Header = () => {
     return (
         <div className='pb-16 flex flex-col gap-8 border-b-2 border-[#efefef]'>
-            <h2 className='w-[70%] text-[32px] text-[#878787]'>
+            <h2 className='text-[32px] text-[#878787]'>
                 Ipsum lorem dolor aliquam ante commodo
                 magna sed accumsan arcu neque.
             </h2>
-            <p className='w-[80%] text-[16px] text-[#a2a2a2] leading-7'>
+            <p className='text-[16px] text-[#a2a2a2] leading-7'>
                 Accumsan orci faucibus id eu lorem semper.
                 Eu ac iaculis ac nunc nisi lorem vulputate
                 lorem neque cubilia ac in adipiscing in curae
@@ -17,9 +18,9 @@ const Header = () => {
                 orci faucibus id eu lorem semper nunc nisi
                 lorem vulputate lorem neque cubilia.
             </p>
-            <button className='w-[160px] h-[50px] flex justify-center items-center text-[16px] text-[#878787] border-3 border-[#efefef] rounded-md'>
+            <Button className='main-btn'>
                 Learn More
-            </button>
+            </Button>
         </div>
     )
 }
