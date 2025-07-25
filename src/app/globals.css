@@ -124,6 +124,10 @@
 
 @layer components {
   .main-btn {
-    @apply !w-[160px] !h-[50px] flex justify-center items-center text-[16px] !text-[#878787] !bg-white border-3 border-[#efefef] rounded-md;
+    @apply !w-[160px] max-sm:!w-full !h-[50px] flex justify-center items-center text-[16px] !text-[#878787] !bg-white border-3 border-[#efefef] rounded-md;
+  }
+
+  .view-btn {
+    @apply !w-[90px] !h-[40px] m-auto flex justify-center items-center absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-20 text-[16px] !text-[#fff] !bg-transparent border-3 border-[#ffffff7d] rounded-sm cursor-pointer;
   }
 }
