@@ -124,7 +124,7 @@
 
 @layer components {
   .main-btn {
-    @apply !w-[160px] max-sm:!w-full !h-[50px] flex justify-center items-center text-[16px] !text-[#878787] !bg-white border-3 border-[#efefef] rounded-md;
+    @apply !w-[160px] max-sm:!w-full !h-[50px] flex justify-center items-center text-[16px] !text-[#878787] !bg-white border-3 border-[#efefef] rounded-md cursor-pointer hover:border-[#49bf9d] hover:!text-[#49bf9d];
   }
 
   .view-btn {

@@ -1,5 +1,25 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+## Environment Variables
+
+Before running the application, you need to set up your environment variables:
+
+1. Create a `.env.local` file in the root directory
+2. Add your Gmail credentials:
+
+```bash
+GMAIL_USER=your.email@gmail.com
+GMAIL_APP_PASSWORD=your_app_password
+```
+
+You can get your Gmail app password by:
+
+1. Go to your [Google Account settings](https://myaccount.google.com/)
+2. Enable 2-Factor Authentication if not already enabled
+3. Go to "Security" → "App passwords"
+4. Generate a new app password for "Mail"
+5. Use this app password (NOT your regular Gmail password)
+
 ## Getting Started
 
 First, run the development server:

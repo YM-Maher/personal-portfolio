@@ -1,5 +1,6 @@
 import React from "react";
 import { Button } from "@/components/ui/button";
+import { CloudDownload } from "lucide-react";
 
 const Header = () => {
   return (
@@ -18,7 +19,10 @@ const Header = () => {
         I focus on delivering maintainable, high-impact solutions that scale
         with your needs.
       </p>
-      <Button className="main-btn">Learn More</Button>
+      <a className="main-btn text-sm gap-2" href="/resume.pdf" download>
+        <CloudDownload size="20px" />
+        Resume
+      </a>
     </div>
   );
 };
