@@ -1,5 +1,5 @@
-import { Github, Linkedin, Mail } from "lucide-react";
 import React from "react";
+import Profiles from "@/components/Profiles";
 
 const Footer = () => {
   return (
@@ -11,23 +11,7 @@ const Footer = () => {
       }}
     >
       {/* Profile Links */}
-      <div className="w-full flex justify-center gap-6">
-        <a href="">
-          <Mail color="#ffffff66" size={28} />
-        </a>
-        <a href="">
-          <Github color="#ffffff66" size={28} />
-        </a>
-        <a href="">
-          <Linkedin color="#ffffff66" size={28} />
-        </a>
-      </div>
-      {/* Copy Rights */}
-      <div className="text-xs text-gray-400 mt-4 text-center">
-        <p className="text-[#ffffff66]">
-          © {new Date().getFullYear()} Youssef Maher. All rights reserved.
-        </p>
-      </div>
+      <Profiles />
     </div>
   );
 };
