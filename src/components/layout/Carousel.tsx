@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import { Github, Mail, Linkedin } from "lucide-react";
+import Profiles from "@/components/Profiles";
 
 const Carousel = () => {
   return (
@@ -28,25 +28,8 @@ const Carousel = () => {
         </h1>
       </div>
       {/* Bottom List */}
-      <div className="max-sm:hidden w-full flex flex-col items-end gap-4">
-        {/* Profile Links */}
-        <div className="w-full flex justify-end gap-6">
-          <a href="">
-            <Mail color="#ffffff66" size={28} />
-          </a>
-          <a href="">
-            <Github color="#ffffff66" size={28} />
-          </a>
-          <a href="">
-            <Linkedin color="#ffffff66" size={28} />
-          </a>
-        </div>
-        {/* Copy Rights */}
-        <div className="text-xs text-gray-400 mt-4 text-end">
-          <p className="text-[#ffffff66]">
-            © {new Date().getFullYear()} Youssef Maher. All rights reserved.
-          </p>
-        </div>
+      <div className="max-sm:hidden w-full">
+        <Profiles />
       </div>
     </div>
   );

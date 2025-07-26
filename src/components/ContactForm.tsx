@@ -13,6 +13,7 @@ import {
   FormMessage,
 } from "@/components/ui/form";
 import { Input } from "@/components/ui/input";
+import { toast } from "sonner"
 
 const formSchema = z.object({
   name: z.string().min(2, {
@@ -52,10 +53,10 @@ const ContactForm = () => {
 
       // Reset form on success
       form.reset();
-      alert("Message sent successfully!");
+      toast.success("Message has been sent successfully!");
     } catch (error) {
       console.error("Error sending message:", error);
-      alert("Failed to send message. Please try again.");
+      toast.error("Failed to send message. Please try again.");
     }
   }
 
