@@ -25,12 +25,6 @@ const RecentWorks = () => {
         "Complete retail solution for inventory management, sales tracking, and customer relationship management.",
     },
     {
-      image: "/projects/sec.jpeg",
-      title: "Project Management App",
-      description:
-        "Efficient project management platform for task tracking, team collaboration, and milestone monitoring.",
-    },
-    {
       image: "/projects/octavia.png",
       title: "Tender Manager",
       description:
@@ -41,6 +35,12 @@ const RecentWorks = () => {
       title: "AI Medical Dictation Platform",
       description:
         "Intelligent speech-to-text platform designed specifically for medical professionals and clinical documentation.",
+    },
+    {
+      image: "/projects/sec.jpeg",
+      title: "Project Management App",
+      description:
+        "Efficient project management platform for task tracking, team collaboration, and milestone monitoring.",
     },
     // Add more items as needed
   ]);
