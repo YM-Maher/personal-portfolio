@@ -19,7 +19,11 @@ const Header = () => {
         I focus on delivering maintainable, high-impact solutions that scale
         with your needs.
       </p>
-      <a className="main-btn text-sm gap-2" href="/resume.pdf" download>
+      <a
+        className="main-btn text-sm gap-2"
+        href="/resume.pdf"
+        download="Youssef Maher.pdf"
+      >
         <CloudDownload size="20px" />
         Resume
       </a>
