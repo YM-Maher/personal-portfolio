@@ -9,9 +9,10 @@ const GetInTouch = () => {
         Get In Touch
       </h2>
       <p className="text-[16px] max-sm:text-[14px] text-[#a2a2a2] leading-7">
-        Accumsan pellentesque commodo blandit enim arcu non at amet id arcu
-        magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem
-        vulputate lorem neque lorem ipsum dolor.
+        I'm always open to new opportunities, collaborations, or simply chatting
+        about frontend technologies, enterprise software, or SaaS platforms.
+        Whether you're looking to build something great or just want to say hi —
+        feel free to reach out!
       </p>
       <div className="pt-8 flex max-sm:flex-col gap-12">
         {/* Contact Form */}
